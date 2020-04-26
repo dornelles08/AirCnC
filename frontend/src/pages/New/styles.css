@@ -1,0 +1,26 @@
+lable#thumbnail{
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+lable#thumbnail input{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+lable#thumbnail.has-thumbnail{
+    border: 0;
+}
+
+lable#thumbnail.has-thumbnail img {
+    display: none;
+}
